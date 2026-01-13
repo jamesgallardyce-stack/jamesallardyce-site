@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/BaseLayout.astro
+layout: ../layouts/BaseLayout.astro
 title: About | James Allardyce
 description: Professional background and planning focus areas.
 ---
