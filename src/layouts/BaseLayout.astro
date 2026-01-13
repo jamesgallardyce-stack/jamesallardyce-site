@@ -1,0 +1,42 @@
+---
+const { title, description, currentPath } = Astro.props;
+const nav = [
+  { href: "/", label: "Home" },
+  { href: "/proposals/", label: "Proposals" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "Contact" },
+];
+function isActive(href) {
+  if (href === "/") return currentPath === "/";
+  return currentPath.startsWith(href);
+}
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="brand"><a href="/">James Allardyce</a></div>
+        <div class="navlinks">
+          {nav.map((item) => (
+            <a href={item.href} class={isActive(item.href) ? "active" : ""}>{item.label}</a>
+          ))}
+        </div>
+      </div>
+      <main class="prose">
+        <slot />
+      </main>
+      <div class="footer">
+        <hr />
+        <div>© {new Date().getFullYear()} James Allardyce. All content is provided for public discussion and professional review.</div>
+      </div>
+    </div>
+  </body>
+</html>

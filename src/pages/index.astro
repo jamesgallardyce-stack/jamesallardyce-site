@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const currentPath = Astro.url.pathname;
+---
+<BaseLayout
+  title="James Allardyce | Urban Planning Proposals"
+  description="Implementation-focused urban planning proposals: transportation, safety, public space, and long-term economic value."
+  currentPath={currentPath}
+>
+  <section class="hero">
+    <h1>Urban planning proposals for safer, more functional cities</h1>
+    <p>
+      I publish implementation-focused proposals that improve mobility, safety, public space, and long-term economic outcomes.
+      Chicago is the primary case study, but the principles are broadly applicable.
+    </p>
+    <div class="cta">
+      <a class="button primary" href="/proposals/">View proposals</a>
+      <a class="button" href="/proposals/lake-shore-drive/">Read the Lake Shore Drive plan</a>
+      <a class="button" href="/about/">About</a>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card half">
+      <h2>Featured proposal</h2>
+      <p><strong>Reimagining Lake Shore Drive as a Destination, Not a Highway</strong></p>
+      <p class="muted">Remove Outer Lake Shore Drive, convert Inner Lake Shore Drive into a bus-focused, emergency-accessible corridor, and redesign the lakefront as a connected civic asset.</p>
+      <p style="margin-top:10px"><a href="/proposals/lake-shore-drive/">Read proposal →</a></p>
+    </div>
+    <div class="card half">
+      <h2>How proposals are written</h2>
+      <p class="muted">
+        Each proposal includes: an executive summary, the problem statement, what changes, expected outcomes (mobility, safety, economic),
+        an implementation approach, and assumptions/open questions.
+      </p>
+      <p style="margin-top:10px"><a href="/proposals/">Browse proposals →</a></p>
+    </div>
+    <div class="card">
+      <h2>Core themes</h2>
+      <p class="muted">
+        Transportation performance • Public safety • Land use and opportunity cost • Public space • Implementation and phasing
+      </p>
+    </div>
+  </section>
+</BaseLayout>
