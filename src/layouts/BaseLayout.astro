@@ -1,5 +1,6 @@
 ---
-const { title, description, currentPath } = Astro.props;
+const { title, description } = Astro.props;
+const currentPath = Astro.props.currentPath ?? Astro.url.pathname;
 const nav = [
   { href: "/", label: "Home" },
   { href: "/proposals/", label: "Proposals" },
