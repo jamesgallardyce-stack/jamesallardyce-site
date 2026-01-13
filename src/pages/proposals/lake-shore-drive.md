@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/BaseLayout.astro
+layout: ../../layouts/BaseLayout.astro
 title: Reimagining Lake Shore Drive | James Allardyce
 description: Remove Outer Lake Shore Drive, convert Inner Lake Shore Drive into a bus-focused, emergency-accessible corridor, and redesign the lakefront as a connected civic asset.
 ---
