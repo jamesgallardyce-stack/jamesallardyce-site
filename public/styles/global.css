@@ -115,6 +115,11 @@ a:hover{ text-decoration:underline; }
   font-size: 1.05rem;
 }
 
+.hero p.lead{
+  font-size: 1.12rem;
+  color: rgba(234,240,255,0.82);
+}
+
 /* Buttons */
 .cta{ display:flex; gap: 12px; flex-wrap:wrap; }
 
