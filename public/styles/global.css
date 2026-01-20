@@ -248,3 +248,19 @@ a:hover{ text-decoration:underline; }
   border-top: 1px solid var(--border);
   margin: 22px 0;
 }
+
+/* Clean figure styling for before/after sets */
+.prose figure{
+  margin: 18px 0;
+}
+
+.prose img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 12px auto;
+  border-radius: 14px;
+  border: none;            /* removes borders */
+  box-shadow: none;        /* keeps it clean; adjust if you want depth */
+}
+
