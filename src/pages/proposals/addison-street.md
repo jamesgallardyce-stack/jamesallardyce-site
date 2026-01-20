@@ -8,17 +8,15 @@ layout: ../../layouts/BaseLayout.astro
 
 This proposal applies a simple principle: streets should be designed for good people who sometimes make mistakes, because those mistakes can permanently harm pedestrians and cyclists. The goal is to reduce risk through speed management, clearer crossings, and design choices that make safe behavior the default.
 
-## Existing conditions vs proposed concept (figures)
+## Phased implementation: immediate to long-term
 
-Add your before/after images here once uploaded into `public/images/`.
+This proposal is structured to allow immediate safety improvements using quick-build materials, followed by more durable upgrades once performance is validated. The intent is to reduce harm quickly while building toward a permanent, high-quality street design.
 
-> **Figure set 1 — Existing vs Proposed**
->
-> (Replace these paths with your actual image filenames.)
->
-> ![](/images/addison-set1-before.png)
->
-> ![](/images/addison-set1-after.png)
+| Today (Existing Conditions) | Tomorrow (Quick-Build) | Next Year (Permanent Design) |
+|-----------------------------|------------------------|------------------------------|
+| ![](/images/addison-today.png) | ![](/images/addison-tomorrow.png) | ![](/images/addison-nextyear.png) |
+
+*Conceptual illustration based on existing geometry. “Tomorrow” reflects paint-and-post treatments achievable quickly; “Next Year” reflects permanent materials and refined geometry following evaluation.*
 
 ## Design intent
 
