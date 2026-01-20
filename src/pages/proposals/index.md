@@ -13,5 +13,5 @@ Below are implementation-focused proposals written for professional review and p
 - **Lake Shore Drive** — Reimagine the lakefront as a destination, not a highway.  
   [Read the proposal](/proposals/lake-shore-drive/)
 
-- **Addison Street** — A safety-first redesign concept that reduces harm from normal human error.  
+- **Mixed-Use Zoning Street Design** — A safety-first redesign concept that reduces harm from normal human error.  
   [Read the proposal](/proposals/addison-street/)
