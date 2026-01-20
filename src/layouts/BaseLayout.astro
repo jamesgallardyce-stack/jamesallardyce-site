@@ -1,12 +1,15 @@
 ---
 const { title, description } = Astro.props;
 const currentPath = Astro.props.currentPath ?? Astro.url.pathname;
+
 const nav = [
   { href: "/", label: "Home" },
   { href: "/proposals/", label: "Proposals" },
+  { href: "/street-design/", label: "Street Design" },
   { href: "/about/", label: "About" },
   { href: "/contact/", label: "Contact" },
 ];
+
 function isActive(href) {
   if (href === "/") return currentPath === "/";
   return currentPath.startsWith(href);
@@ -31,9 +34,11 @@ function isActive(href) {
           ))}
         </div>
       </div>
+
       <main class="prose">
         <slot />
       </main>
+
       <div class="footer">
         <hr />
         <div>© {new Date().getFullYear()} James Allardyce. All content is provided for public discussion and professional review.</div>
