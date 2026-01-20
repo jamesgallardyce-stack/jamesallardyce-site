@@ -1,8 +1,14 @@
 ---
-title: Addison Street Redesign Proposal
+title: Mixed-Use Zoning Street Redesign Proposal
 description: A safety-first redesign concept for Addison Street that reduces harm from normal human error.
 layout: ../../layouts/BaseLayout.astro
 ---
+
+## Context: Why Addison Street
+
+Addison Street is a useful case study because it contains multiple zoning and land-use conditions within a single continuous corridor. Along its length, Addison transitions from primarily residential segments, to mixed residential–commercial areas, to intense commercial and entertainment districts such as Wrigleyville, before connecting to major rapid transit infrastructure including the Blue Line. These shifts create very different patterns of pedestrian activity, vehicle behavior, and safety risk within short distances. This makes Addison representative of many mixed-use corridors across Chicago, while underscoring the need for context-sensitive street design that responds to zoning, activity level, and transit access rather than applying a single uniform treatment.
+
+*Addison Street is used here as a representative example of a mixed-use corridor with transit, retail, and residential activity.*
 
 ## Summary
 
