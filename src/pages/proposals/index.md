@@ -10,5 +10,8 @@ Below are implementation-focused proposals written for professional review and p
 
 ## Featured
 
-- **[Reimagining Lake Shore Drive as a Destination, Not a Highway](/proposals/lake-shore-drive/)**  
-  Remove Outer Lake Shore Drive, convert Inner Lake Shore Drive into a bus-focused, emergency-accessible corridor, and redesign the lakefront as a connected civic asset.
+- **Lake Shore Drive** — Reimagine the lakefront as a destination, not a highway.  
+  [Read the proposal](/proposals/lake-shore-drive/)
+
+- **Addison Street** — A safety-first redesign concept that reduces harm from normal human error.  
+  [Read the proposal](/proposals/addison-street/)
