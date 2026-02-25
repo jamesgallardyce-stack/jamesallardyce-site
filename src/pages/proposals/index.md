@@ -15,3 +15,7 @@ Below are implementation-focused proposals written for professional review and p
 
 - **Mixed-Use Zoning Street Design** — A safety-first redesign concept that reduces harm from normal human error.  
   [Read the proposal](/proposals/addison-street/)
+
+- **The Future of Soldier Field and the Bears** — Keep the lakefront for people; improve transit instead of adding roads/parking.  
+  [Read the proposal](/proposals/soldier-field-bears/)
+

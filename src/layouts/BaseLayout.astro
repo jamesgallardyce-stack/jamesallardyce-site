@@ -5,7 +5,8 @@ const currentPath = Astro.props.currentPath ?? Astro.url.pathname;
 const nav = [
   { href: "/", label: "Home" },
   { href: "/proposals/", label: "Proposals" },
-  { href: "/street-design/", label: "Street Design" },
+  { href: "/frameworks/", label: "Frameworks" },
+  { href: "/property-management/", label: "Property Management" },
   { href: "/about/", label: "About" },
   { href: "/contact/", label: "Contact" },
 ];
@@ -30,7 +31,9 @@ function isActive(href) {
         <div class="brand"><a href="/">James Allardyce</a></div>
         <div class="navlinks">
           {nav.map((item) => (
-            <a href={item.href} class={isActive(item.href) ? "active" : ""}>{item.label}</a>
+            <a href={item.href} class={isActive(item.href) ? "active" : ""}>
+              {item.label}
+            </a>
           ))}
         </div>
       </div>
@@ -41,7 +44,10 @@ function isActive(href) {
 
       <div class="footer">
         <hr />
-        <div>© {new Date().getFullYear()} James Allardyce. All content is provided for public discussion and professional review.</div>
+        <div>
+          © {new Date().getFullYear()} James Allardyce. All content is provided
+          for public discussion and professional review.
+        </div>
       </div>
     </div>
   </body>
